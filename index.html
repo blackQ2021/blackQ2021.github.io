@@ -442,7 +442,7 @@
                             <div v-for="(item, index) in article.data" :key="index" class="col-md-6 col-xl-3">
                                 <div class="card d-block">
                                     <div class="card-body p-2">
-                                        <a :href="'/Blog/article.html?id=' + item.id" class="hover-a-img position-relative">
+                                        <a :href="'/article.html?id=' + item.id" class="hover-a-img position-relative">
                                             <img :src="item.expand.img_src" class="w-100 img-cover">
                                             <div class="card-img-overlay">
                                                 <div class="badge badge-secondary p-1">{{item.views}}</div>
